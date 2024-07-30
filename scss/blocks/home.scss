@@ -129,7 +129,7 @@
   z-index: 1;
 
   @media screen and (max-width: 879px) {
-    max-width: 400px;
+    max-width: 250px;
   }
 
   div {
@@ -144,6 +144,8 @@
       z-index: -1;
 
       @media screen and (max-width: 879px) {
+        border-radius: 8px;
+        border-width: 1px;
         top: 6px;
       }
     }
@@ -168,6 +170,10 @@
 
       @media screen and (max-width: 879px) {
         height: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 8px;
+        border-width: 1px;
         font-size: 14px;
       }
     }

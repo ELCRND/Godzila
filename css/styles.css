@@ -298,7 +298,7 @@ body {
     top: 340px;
     left: 50%;
     translate: -50% 0;
-    filter: drop-shadow(2px 5px 0 #000);
+    filter: drop-shadow(2px 3px 0 #000);
   }
 }
 .header__socials a {
@@ -479,7 +479,7 @@ body {
 }
 @media screen and (max-width: 879px) {
   .home__token {
-    max-width: 400px;
+    max-width: 250px;
   }
 }
 .home__token div:first-of-type {
@@ -494,6 +494,8 @@ body {
 }
 @media screen and (max-width: 879px) {
   .home__token div:first-of-type {
+    border-radius: 8px;
+    border-width: 1px;
     top: 6px;
   }
 }
@@ -518,6 +520,10 @@ body {
 @media screen and (max-width: 879px) {
   .home__token div:last-of-type {
     height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    border-width: 1px;
     font-size: 14px;
   }
 }
