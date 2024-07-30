@@ -375,6 +375,7 @@ body {
   grid-template-columns: 1fr auto;
   column-gap: 50px;
   grid-template-areas: "subtitle img" "title img" "links img" "token img";
+  filter: drop-shadow(13px 20px #000);
 }
 @media screen and (max-width: 1279px) {
   .home__wrap {
@@ -394,6 +395,7 @@ body {
     padding: 25px;
     gap: 0;
     grid-template-areas: "subtitle img" "title img" "links img" "token img";
+    filter: drop-shadow(3px 8px #000);
   }
 }
 @media screen and (max-width: 549px) {
