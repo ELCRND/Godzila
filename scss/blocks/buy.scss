@@ -53,15 +53,15 @@
   font-size: 64px;
   color: #9cba58;
   -webkit-text-stroke: 2px #000;
-  text-shadow: 0 8px #000;
   text-align: center;
+  filter: drop-shadow(2px 8px #000);
 
   @media screen and (max-width: 879px) {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 24px;
-    text-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
+    filter: drop-shadow(0 3px #000);
   }
 }
 

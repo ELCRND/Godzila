@@ -373,14 +373,14 @@ body {
   letter-spacing: 0.08em;
   color: #ffda58;
   -webkit-text-stroke: 3px #000;
-  text-shadow: 0 12px #000;
+  filter: drop-shadow(0 12px #000);
 }
 @media screen and (max-width: 879px) {
   .home__title {
     margin-bottom: 110px;
     font-size: 24px;
-    text-shadow: 0 3px #000;
     -webkit-text-stroke: 1px #000;
+    filter: drop-shadow(0 3px #000);
   }
 }
 
@@ -633,7 +633,7 @@ body {
   position: relative;
   z-index: 1;
   -webkit-text-stroke: 2px #000;
-  text-shadow: 5px 10px #201c0f;
+  filter: drop-shadow(5px 10px #201c0f);
 }
 @media screen and (max-width: 1279px) {
   .about__title {
@@ -645,7 +645,7 @@ body {
     font-size: 24px;
     color: #fff;
     -webkit-text-stroke: 1px #000;
-    text-shadow: 1px 2px #201c0f;
+    filter: drop-shadow(1px 2px #201c0f);
   }
 }
 
@@ -758,8 +758,8 @@ body {
   font-size: 64px;
   color: #ffda58;
   -webkit-text-stroke: 2px #000;
-  text-shadow: 0 6px #201c0f;
   text-align: center;
+  filter: drop-shadow(0 6px #000);
 }
 @media screen and (max-width: 879px) {
   .roadmap__title {
@@ -768,8 +768,8 @@ body {
     font-size: 24px;
     text-transform: uppercase;
     color: #9cba58;
-    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     text-align: left;
+    filter: drop-shadow(0 2px #000);
   }
 }
 
@@ -929,16 +929,16 @@ body {
   font-size: 64px;
   color: #9cba58;
   -webkit-text-stroke: 2px #000;
-  text-shadow: 0 8px #000;
   text-align: center;
+  filter: drop-shadow(2px 8px #000);
 }
 @media screen and (max-width: 879px) {
   .buy__title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 24px;
-    text-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
+    filter: drop-shadow(0 3px #000);
   }
 }
 
@@ -1047,11 +1047,11 @@ body {
 }
 
 .footer__container {
-  width: min(1480px, 100%);
+  width: min(1600px, 100%);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   gap: 108px;
 }
