@@ -41,7 +41,6 @@
   @media screen and (max-width: 1079px) {
     grid-template-columns: auto auto;
     padding: 25px;
-    border-radius: 16px;
     grid-template-areas:
       "subtitle img"
       "title img"
@@ -103,13 +102,13 @@
   @media screen and (max-width: 768px) {
     margin-bottom: 12px;
     font-size: 24px;
-    -webkit-text-stroke: 2px #1e1700;
+    -webkit-text-stroke: 1px #1e1700;
     &::before {
       bottom: -3px;
     }
   }
   @media screen and (max-width: 549px) {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 }
 .home__subtitle {
@@ -138,7 +137,9 @@
     font-size: 48px;
   }
   @media screen and (max-width: 768px) {
+    margin-top: 20px;
     font-size: 15px;
+    letter-spacing: 0.21em;
     color: #ffda58;
     -webkit-text-stroke: 1px #1e1700;
     &::before {
@@ -274,6 +275,7 @@
   @media screen and (max-width: 768px) {
     height: fit-content;
     border-radius: 16px;
+    box-shadow: 0 0 0 2px #000;
     filter: none;
     position: relative;
     z-index: 1;
@@ -299,7 +301,6 @@
       max-width: 200px;
     }
     @media screen and (max-width: 768px) {
-      border: 2px solid #000;
       border-radius: 16px;
     }
     @media screen and (max-width: 549px) {
