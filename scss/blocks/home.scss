@@ -7,7 +7,7 @@
 
   @media screen and (max-width: 1079px) {
     padding-top: 90px;
-    padding-bottom: 42px;
+    padding-bottom: 43px;
   }
 }
 
@@ -79,7 +79,7 @@
   z-index: 1;
 
   &::before {
-    content: "KAMALA";
+    content: attr(data-title);
     color: #1e1700;
     position: absolute;
     bottom: -12px;
@@ -103,9 +103,9 @@
   @media screen and (max-width: 768px) {
     margin-bottom: 12px;
     font-size: 24px;
-    -webkit-text-stroke: 1px #1e1700;
+    -webkit-text-stroke: 2px #1e1700;
     &::before {
-      bottom: -4px;
+      bottom: -3px;
     }
   }
   @media screen and (max-width: 549px) {
@@ -124,7 +124,7 @@
   z-index: 1;
 
   &::before {
-    content: "Token";
+    content: attr(data-title);
     color: #1e1700;
     position: absolute;
     bottom: -6px;
@@ -253,6 +253,7 @@
 }
 
 .token__copy {
+  flex-shrink: 0;
   transition: scale 200ms ease;
   &:hover {
     scale: 1.05;
